@@ -1,0 +1,14 @@
+../Drivers/CMSIS/Include/core_cm3.h:1762:34:__NVIC_SystemReset	1
+../Core/Src/main.c:120:6:microDelay	3
+../Core/Src/main.c:140:6:receive_signal_handling	24
+../Core/Src/main.c:282:6:erase_memory	3
+../Core/Src/main.c:304:10:read_line_length	1
+../Core/Src/main.c:309:9:check_cs	3
+../Core/Src/main.c:321:6:HAL_I2C_ListenCpltCallback	1
+../Core/Src/main.c:325:6:HAL_I2C_AddrCallback	10
+../Core/Src/main.c:352:5:main	8
+../Core/Src/main.c:449:6:SystemClock_Config	3
+../Core/Src/main.c:489:13:MX_I2C1_Init	2
+../Core/Src/main.c:523:13:MX_TIM2_Init	4
+../Core/Src/main.c:568:13:MX_GPIO_Init	1
+../Core/Src/main.c:634:6:Error_Handler	1

@@ -1,0 +1,44 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build all",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["all", "-j4"]
+        },
+        {
+            "label": "Build clean",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"]
+        },
+        {
+            "label": "JFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j4","j-flash"]
+        },
+        {
+            "label": "STflash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-j44","st-flash"]
+        },
+        {
+            "label": "UARTFlash",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            // Replace PORT= with your UART port
+            // Linux has ttyUSBx or ttyACMx, windows has COMx
+            "args": ["-j4","u-flash", "PORT=/dev/ttyUSB1"]
+        }
+    ]
+}

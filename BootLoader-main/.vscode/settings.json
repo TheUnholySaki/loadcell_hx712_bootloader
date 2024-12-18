@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+    "cortex-debug.gdbPath": "C:\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gdb",
+    "cortex-debug.stutilPath": "C:\\Program Files (x86)\\stlink-1.7.0\\bin\\st-util",
+    "stm32-for-vscode.openOCDPath": false,
+    "files.associations": {
+        "stm32f1xx_hal.h": "c",
+        "vartype_convert.h": "c"
+    },
+}

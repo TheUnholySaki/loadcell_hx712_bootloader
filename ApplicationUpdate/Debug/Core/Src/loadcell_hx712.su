@@ -1,0 +1,2 @@
+../Core/Src/loadcell_hx712.c:4:10:getHX712	32	static
+../Core/Src/loadcell_hx712.c:42:6:int_to_string	16	static
